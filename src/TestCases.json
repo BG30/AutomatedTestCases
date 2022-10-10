@@ -1,0 +1,498 @@
+{
+  "System": {
+    "Testset": {
+      "Testcase": [
+        {
+          "Value": [
+            1,
+            "valid_delimeters",
+            "one_column",
+            "sorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            2,
+            "valid_delimeters",
+            "one_column",
+            "sorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            3,
+            "valid_delimeters",
+            "one_column",
+            "unsorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            4,
+            "valid_delimeters",
+            "one_column",
+            "unsorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            5,
+            "valid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            6,
+            "valid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            7,
+            "valid_delimeters",
+            "many_columns",
+            "sorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            8,
+            "valid_delimeters",
+            "many_columns",
+            "sorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            9,
+            "valid_delimeters",
+            "many_columns",
+            "unsorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            10,
+            "valid_delimeters",
+            "many_columns",
+            "unsorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            11,
+            "valid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            12,
+            "valid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            13,
+            "invalid_delimeters",
+            "one_column",
+            "sorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            14,
+            "invalid_delimeters",
+            "one_column",
+            "sorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            15,
+            "invalid_delimeters",
+            "one_column",
+            "unsorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            16,
+            "invalid_delimeters",
+            "one_column",
+            "unsorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            17,
+            "invalid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            18,
+            "invalid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            19,
+            "invalid_delimeters",
+            "many_columns",
+            "sorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            20,
+            "invalid_delimeters",
+            "many_columns",
+            "sorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            21,
+            "invalid_delimeters",
+            "many_columns",
+            "unsorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            22,
+            "invalid_delimeters",
+            "many_columns",
+            "unsorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            23,
+            "invalid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            24,
+            "invalid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            25,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "sorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            26,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "sorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            27,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "unsorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            28,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "unsorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            29,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            30,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            31,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "sorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            32,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "sorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            33,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "unsorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            34,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "unsorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            35,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            36,
+            "valid_delimeters_mixed_with_invalid_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            37,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "sorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            38,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "sorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            39,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "unsorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            40,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "unsorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            41,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            42,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "one_column",
+            "duplicate_keys",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            43,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "sorted",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            44,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "sorted",
+            "unicode_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            45,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "unsorted",
+            "ascii_characters",
+            true
+          ]
+        },
+        {
+          "Value": [
+            46,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "unsorted",
+            "unicode_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            47,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "ascii_characters",
+            false
+          ]
+        },
+        {
+          "Value": [
+            48,
+            "valid_delimeters_mixed_with_random_delimeters",
+            "many_columns",
+            "duplicate_keys",
+            "unicode_characters",
+            true
+          ]
+        }
+      ]
+    },
+    "Header": {
+      "Value": [
+        "",
+        "CSV_DELIMETERS",
+        "HEADERS",
+        "SORT",
+        "CONTENT_TYPE",
+        "CONTAINS_EMPTY_ENTRIES"
+      ]
+    }
+  }
+}
